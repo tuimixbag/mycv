@@ -1,108 +1,195 @@
 <html>
-    <style>
-.logo {
-    border-color: 5e6472;
-    border-style: solid;
-    border-radius: 50%;
-}
-.box1 {
-    border-width: 5px;
+    <style>  
+.right_side .text_service1{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .text_service1 .service1_left {
+    position: relative;
+    background:#faf3dd;
+    padding: 50px;
     text-align: center;
-    border-radius: 20%;
-    margin-right: 820px;
-    color: 5e6472;
+    }
+    .service1_left:hover {background: #fa1d5f;color: #fff;}
     
-   }
+    
+    
+    .text_service1 .service1_right{
+    position: relative;
+    background:#fff;
+    text-align: center;
+    
+}
+
+.right_side .text_service2{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text_service2 .service2_left {
+    position: relative;
+    text-align: center;
+    }
+    
+
+.text_service2 .service2_right{
+    position: relative;
+    text-align: center;
+    background:#faf3dd;
+    padding: 50px;
+}
+.service2_right:hover {background: #fa1d5f;color: #fff;}
+
+.right_side .text_service3{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .text_service3 .service3_left {
+    position: relative;
+    background:#faf3dd;
+    padding: 50px;
+    text-align: center;
+    }
+    .service3_left:hover {background: #fa1d5f;color: #fff;}
+    .text_service3 .service3_right{
+    position: relative;
+    
+    text-align: center;
+}
+
+.right_side .text_service4{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text_service4 .service4_left {
+    position: relative;
+    text-align: center;
+    }
+.text_service4 .service4_right{
+    position: relative;
+    background:#faf3dd;
+    text-align: center;
+    padding: 50px;
+}
+.service4_right:hover {background: #fa1d5f;color: #fff;}
+.container {
+    background: lightgoldenrodyellow;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    min-height: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left_side{
+    position: relative;
+    background:#faf3dd;
+    padding: 40px;
+    text-align: center;
+}
 
 img {
-    height: 100px;
-    width: 100px;
+    width: 200px;
 }
-.nameService1 {
-    background-color: #faf3dd;
-    grid-area: header;} 
-.nameService2 {
-    background-color: #faf3dd;
-    grid-area: second;}
-
-.nameService3 {
-    background-color: #faf3dd;
-    grid-area: third;}
-
-.nameService4 {
-    background-color: #faf3dd;
-    grid-area: final;
+.container .left_side 
+    .logo{
+        border-radius: 50%;
+        border-style: solid; 
     }
-.box2 {
-    font-size: 0.8em;
-    max-width: 700px; 
-    width: 100%;
-    height: 100%;
-    background-color: #faf3dd;
-    display: grid;
-    grid-template-areas: "header" "second" 
-    "third" "final";
-    float: right;
-}
-div{
-    display: inline-block;
-    height: 100px;
-    width: 500px;
+    .text_profile{
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        font-size: 30px;
+    }
+    .title{
+        text-align: center;
+    }
+    .contactInfor{
+        text-align: left;
+    }
+    .text_service{
+        text-align: left;
+    }
+.container .right_side{
+    position: relative;
+    background:#fff;
+    padding: 40px;
 }
 
     </style>
     <head>
-        
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div class="box1">
+        <div class= "container">
+        <div class="left_side">
             <img class="logo" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_fGX90zp-r-7MCycHhQTWtw3CoIzBiPpSC-Av38cRDIxWuY1zIboFDCoC5ybtI1BpnuM&usqp=CAU" alt="OniMin">
-            <h1>Hello, I’m Onimin.</h1>
-            <p>Welcome to my Social Media Design.</br>I'm a creative and classy designer.</br>I'm doing this for almost 2 years. </br>And completed 50+ projects in real life. 
+            <h1 class="text_profile">Hello, I’m Onimin</h1>
+            <p class="text_intro"> Welcome to my Social Media Design.</br>I'm a creative and classy designer.</br>I'm doing this for almost 2 years. </br>And completed 50+ projects in real life. 
             </br>I love to design SOCIAL MEDIA CREATIVES.</p>
                 
-            <h2>Why Choose me:</h2>
+            <h2 class="text_strength"> Why Choose me:</h2>
     <li>Attractive and eye-catchy designs</li>
     <li>Clean and perfect typography</li>
     <li>Great color contrast</li>
     <li>All unique and no generic designs</li>
     <li>24/7 Support</li>
     <li>Lifetime support after the project completion</li>
-    <h2>My Services:</h2>
-            <h4>1. Shopee Templates</br>
-    2. Posts for Facebook/Instagram</br>
-    3. Instagram Stories</br>
-    4. Other Digital Product</h4>
+            <h2 >My Services:</h2>
+            <h4 class="text_service">1. Shopee Templates</br>
+            2. Posts for Facebook/Instagram</br>
+            3. Instagram Stories</br>
+            4. Other Digital Product</h4>
     
-    <h2>CONTACT</h2>
-    <h4>PHONE: 678-555-0103</h4>
-    <h4>WEBSITE: Website goes here</h4>
-    <h4>EMAIL: someone@example.com</h4>
+            <div class="contactInfor">
+                <h2 class="title"> Contact:</h2>
+            <h4 class="phone">
+                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span class="text">678-555-0103</span></h4>
+            <h4 class="website">
+                <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                <span class="text">Website goes here</span></h4>
+            <h4 class="email">
+                <span class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></span>
+                <span>EMAIL: someone@example.com</span></h4> </div>
+    
     </div>
 
-       <div class="box2">
-                <div class="nameService1"> 
-                <h2> Shopee Templates</h2>
-            <img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8>
-            <a href= "https://www.google.com/">See More</a>
-        </div>
-        <div class="nameService2"> 
-            <h2>Facebook/ Instagram Posts</h2>
-            <img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8>
-            <a href= "https://www.google.com/">See More</a>
-        </div>
-        <div class="nameService3">
-            <h2>Instagram Stories</h2>
-            <img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8>
-            <a href= "https://www.google.com/">See More</a>
-        </div>
-        <div class="nameService4"> 
-         
-          <h2>Other Digital Product</h2>
-          <img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8>
-          <a href= "https://www.google.com/">See More</a>
+       <div class="right_side">
+            <div class="text_service1"> 
+                
+                <div class="service1_left" > <h2>Shopee Templates  </h2> </div>
+                <div class="service1_right">
+                    <img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8>          
+                </div>
+            </div>
+            <div class="text_service2"> 
+                <div class="service2_left"><img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8></div>
+                <div class="service2_right"> <h2>Facebook/ Instagram Posts  </h2> </div>
+                               
+                </div>
+            <div class="text_service3">
+                <div class="service3_left"> <h2>Instagram Stories  </h2> </div>
+                <div class="service3_right"><img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8> </div>
+                </div>
+        <div class="text_service4"> 
+            <div class="service4_left"><img src = https://cf.shopee.vn/file/e474203cf8acd590ed504926606ac8f8></div> 
+            <div class="service4_right"> <h2>Other Digital Products  </h2> </div>
+                           
         </div>
        </div>
-
+    </div>
     </body>
 </html>
